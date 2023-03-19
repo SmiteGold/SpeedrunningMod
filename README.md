@@ -1,1 +1,1 @@
-# FastResetPQ
+# SpeedrunMod
