@@ -13,7 +13,7 @@ namespace SpeedrunningMod
     public class ModMain : PatchQuestMod
     {
         //called every frame while on a quest
-        public override void QuestUpdate()
+        public override void MainUpdate()
         {
             if (Input.GetKeyDown(KeyCode.O))
             {
