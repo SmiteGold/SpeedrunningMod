@@ -6,19 +6,28 @@ using System.Threading.Tasks;
 using MelonLoader;
 using UnityEngine;
 using PatchQuest;
+using ModdingUtilities;
 
 namespace SpeedrunningMod
 {
-    public class ModMain : MelonMod
+    public class ModMain : PatchQuestMod
     {
-        public override void OnUpdate()
+        //called every frame while on a quest
+        public override void QuestUpdate()
         {
             if (Input.GetKeyDown(KeyCode.O))
             {
-                base.LoggerInstance.Msg("Resetting...");
-                Game.LeaveCurrentArea(Direction.NONE);
-                SceneManager.ExitToTitle();
+                Reset();
             }
+        }
+
+
+
+        public void Reset()
+        {
+            LoggerInstance.Msg("Resetting...");
+            Game.LeaveCurrentArea(Direction.NONE);
+            SceneManager.ExitToTitle();
         }
     }
 }
