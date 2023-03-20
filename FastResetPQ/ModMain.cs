@@ -7,9 +7,9 @@ using MelonLoader;
 using UnityEngine;
 using PatchQuest;
 
-namespace FastResetPQ
+namespace SpeedrunningMod
 {
-    public class FastReset : MelonMod
+    public class ModMain : MelonMod
     {
         public override void OnUpdate()
         {

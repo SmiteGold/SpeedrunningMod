@@ -2,16 +2,16 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using MelonLoader;
-using FastResetPQ;
+using SpeedrunningMod;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FastResetPQ")]
+[assembly: AssemblyTitle("SpeedrunningMod")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FastResetPQ")]
+[assembly: AssemblyProduct("Speedrunning Mod")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -37,5 +37,5 @@ using FastResetPQ;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: MelonInfo(typeof(FastReset), "FastReset", "1.0", "")]
+[assembly: MelonInfo(typeof(ModMain), "SpeedrunningMod", "1.0.0", "Smite")]
 [assembly: MelonGame("Lychee Game Labs", "Patch Quest")]
